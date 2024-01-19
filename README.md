@@ -9,7 +9,7 @@
 The defects fall into multiple classes [0, 1, 2, 3, 4], with 0 representing the background class.
 
 **Dataset Overview:**
-- The dataset contains RGB color images (*heigh $\times$ width $\times$ 3*).
+- The dataset contains RGB color images (heigh * width * 3).
  Masks are represented as a string with pairs of values that contain a start position and a run length. E.g. '1 3' implies starting at pixel 1 and running a total of 3 pixels (1,2,3).
 
  The dataset encompasses a wide range of scenarios, including images with no defects, single-class defects, and instances with multiple defect classes.
